@@ -35,6 +35,7 @@ def generar_dispersion():
 
   # Muestra el diagrama de dispersión
   st.plotly_chart(fig)
+  st.write("Diagrama actualizado")
 
 # Crea un botón y asóciale la función generar_dispersion
 boton_dispersion = st.button("Generar diagrama de dispersión")

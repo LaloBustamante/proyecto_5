@@ -24,3 +24,6 @@ La aplicación se abrirá en su navegador web.
 Seleccione la columna que desea analizar y haga clic en el botón "Generar histograma" para crear un histograma.
 Seleccione dos columnas y haga clic en el botón "Generar diagrama de dispersión" para crear un diagrama de dispersión.
 Si desea visualizar ambos tipos de grafica de forma simultanea, debera mantener habilitados los checkbox de ambas graficas y solo modificar la selección de las columnas que desea visualizar.
+
+URL render: https://proyecto-5-3hp1.onrender.com
+

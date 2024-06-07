@@ -10,7 +10,7 @@ Generar diagramas de dispersión: Permite al usuario seleccionar dos columnas de
 
 Funcionalidad:
 
-La aplicación web presenta una interfaz sencilla e intuitiva que facilita su uso. El usuario puede interactuar con la aplicación mediante botones y menús desplegables para seleccionar las columnas que desea analizar y generar los gráficos correspondientes. Los gráficos se muestran de forma interactiva, permitiendo al usuario explorar y ampliar las áreas de interés.
+El usuario puede interactuar con la aplicación mediante checkbox, botones y menús desplegables para seleccionar las columnas que desea analizar y generar los gráficos correspondientes. Los gráficos se muestran de forma interactiva, permitiendo al usuario explorar y ampliar las áreas de interés.
 
 Uso:
 
@@ -23,3 +23,4 @@ Ejecute el siguiente comando: ```streamlit run app.py```
 La aplicación se abrirá en su navegador web.
 Seleccione la columna que desea analizar y haga clic en el botón "Generar histograma" para crear un histograma.
 Seleccione dos columnas y haga clic en el botón "Generar diagrama de dispersión" para crear un diagrama de dispersión.
+Si desea visualizar ambos tipos de grafica de forma simultanea, debera mantener habilitados los checkbox de ambas graficas y solo modificar la selección de las columnas que desea visualizar.

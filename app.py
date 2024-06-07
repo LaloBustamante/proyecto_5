@@ -24,6 +24,8 @@ boton_histograma = st.button("Generar histograma")
 if boton_histograma:
   generar_histograma()
 
+# Actualiza el histograma cada vez que se cambia la selección del selectbox
+st.selectbox("Selecciona una columna:", car_data.columns).on_change(generar_histograma)
 
 def generar_dispersion():
     """
